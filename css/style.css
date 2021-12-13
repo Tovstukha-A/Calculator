@@ -19,16 +19,16 @@
 }
 
 .calc-screen {
-    height: 150px;
+    height: 120px;
     padding: 10px;
     display: grid;
     justify-items: end;
     align-items: end;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
 }
 
 .calc-screen p {
-    font-size: 5rem;
+    font-size: 4rem;
     margin: 0;
 }
 
@@ -38,6 +38,7 @@
         "ac plus-minus percent division"
         "seven eight nine myltiply"
         "four five six minus"
+        "one too three plus"
         "zero zero dot equal";
     grid-gap: 7px;
     justify-items: center;
